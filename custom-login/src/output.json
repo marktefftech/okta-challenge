@@ -1,0 +1,125 @@
+{
+  "test": [
+    {
+        "id": "00ua37ekgqeNrgMlu5d6",
+        "status": "ACTIVE",
+        "created": "2021-03-01T19:31:21.000Z",
+        "activated": null,
+        "statusChanged": "2021-03-01T20:35:45.000Z",
+        "lastLogin": "2021-03-01T20:35:48.000Z",
+        "lastUpdated": "2021-03-01T20:35:45.000Z",
+        "passwordChanged": "2021-03-01T20:35:45.000Z",
+        "type": {
+            "id": "otya30e1xhFjAKuWo5d6"
+        },
+        "profile": {
+            "firstName": "mark",
+            "lastName": "teff",
+            "mobilePhone": null,
+            "secondEmail": null,
+            "login": "markteffeteller2@gmail.com",
+            "email": "markteffeteller2@gmail.com"
+        },
+        "credentials": {
+            "password": {},
+            "emails": [
+                {
+                    "value": "markteffeteller2@gmail.com",
+                    "status": "VERIFIED",
+                    "type": "PRIMARY"
+                }
+            ],
+            "provider": {
+                "type": "OKTA",
+                "name": "OKTA"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "https://dev-85634308.okta.com/api/v1/users/00ua37ekgqeNrgMlu5d6"
+            }
+        }
+    },
+    {
+        "id": "00ua3kspa37ChcD2h5d6",
+        "status": "ACTIVE",
+        "created": "2021-03-01T20:45:40.000Z",
+        "activated": "2021-03-01T20:45:41.000Z",
+        "statusChanged": "2021-03-01T20:45:41.000Z",
+        "lastLogin": "2021-03-01T20:51:04.000Z",
+        "lastUpdated": "2021-03-01T20:50:32.000Z",
+        "passwordChanged": "2021-03-01T20:45:41.000Z",
+        "type": {
+            "id": "otya30e1xhFjAKuWo5d6"
+        },
+        "profile": {
+            "firstName": "yo",
+            "lastName": "ma",
+            "manager": "",
+            "mobilePhone": null,
+            "secondEmail": null,
+            "managerId": "manager MARK",
+            "login": "yo@yo.com",
+            "email": "yo@yo.com"
+        },
+        "credentials": {
+            "password": {},
+            "emails": [
+                {
+                    "value": "yo@yo.com",
+                    "status": "VERIFIED",
+                    "type": "PRIMARY"
+                }
+            ],
+            "provider": {
+                "type": "OKTA",
+                "name": "OKTA"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "https://dev-85634308.okta.com/api/v1/users/00ua3kspa37ChcD2h5d6"
+            }
+        }
+    },
+    {
+        "id": "00ua3q2ubKs5kYwzI5d6",
+        "status": "ACTIVE",
+        "created": "2021-03-01T20:55:55.000Z",
+        "activated": "2021-03-01T20:55:55.000Z",
+        "statusChanged": "2021-03-01T20:55:55.000Z",
+        "lastLogin": "2021-03-02T03:56:27.000Z",
+        "lastUpdated": "2021-03-01T20:55:55.000Z",
+        "passwordChanged": "2021-03-01T20:55:55.000Z",
+        "type": {
+            "id": "otya30e1xhFjAKuWo5d6"
+        },
+        "profile": {
+            "firstName": "elon",
+            "lastName": "elon",
+            "mobilePhone": null,
+            "secondEmail": null,
+            "login": "elon@1.com",
+            "email": "elon@1.com"
+        },
+        "credentials": {
+            "password": {},
+            "emails": [
+                {
+                    "value": "elon@1.com",
+                    "status": "UNVERIFIED",
+                    "type": "PRIMARY"
+                }
+            ],
+            "provider": {
+                "type": "OKTA",
+                "name": "OKTA"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "https://dev-85634308.okta.com/api/v1/users/00ua3q2ubKs5kYwzI5d6"
+            }
+        }
+    }
+]}

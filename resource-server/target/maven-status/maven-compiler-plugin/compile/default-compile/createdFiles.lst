@@ -1,0 +1,6 @@
+com/okta/spring/example/ResourceServerExampleApplication$MessageOfTheDayController.class
+com/okta/spring/example/FeignClient.class
+com/okta/spring/example/ResourceServerExampleApplication$OktaOAuth2WebSecurityConfigurerAdapter.class
+com/okta/spring/example/ResourceServerExampleApplication$Message.class
+com/okta/spring/example/ResourceServerExampleApplication.class
+com/okta/spring/example/ApiEvents.class

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test">
+    <classes>
+      <class name="com.okta.test.mock.tests.ImplicitRemoteValidationIT"/>
+      <class name="com.okta.test.mock.tests.CodeFlowLocalValidationIT"/>
+      <class name="com.okta.test.mock.tests.CustomLoginCodeFlowLocalValidationIT"/>
+      <class name="com.okta.test.mock.tests.CodeFlowRemoteValidationIT"/>
+      <class name="com.okta.test.mock.tests.OIDCCodeFlowLocalValidationIT"/>
+      <class name="com.okta.test.mock.tests.ImplicitLocalValidationIT"/>
+      <class name="com.okta.test.mock.tests.CustomLoginCodeFlowRemoteValidationIT"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.okta.test.mock.tests.CodeFlowLocalValidationIT">
+        <methods>
+          <include name="wrongStateTest"/>
+          <include name="stop"/>
+          <include name="followRedirect"/>
+          <include name="redirectToLogin"/>
+          <include name="start"/>
+          <include name="respondWithCode"/>
+          <include name="invalidSignatureAccessTokenJwtTest"/>
+          <include name="wrongAudienceAccessTokenJwtTest"/>
+          <include name="stopMockServer"/>
+          <include name="noAuthCodeTest"/>
+          <include name="wrongKeyIdAccessTokenJwtTest"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.CodeFlowLocalValidationIT -->
+      <class name="com.okta.test.mock.tests.OIDCCodeFlowLocalValidationIT">
+        <methods>
+          <include name="wrongAudienceIdTokenJwtTest"/>
+          <include name="invalidIssuerIdTokenJwtTest"/>
+          <include name="followRedirect"/>
+          <include name="wrongStateTest"/>
+          <include name="stop"/>
+          <include name="respondWithCode"/>
+          <include name="expiredIdTokenJwtTest"/>
+          <include name="stopMockServer"/>
+          <include name="issuedInFutureIdTokenJwtTest"/>
+          <include name="invalidSignatureIdTokenJwtTest"/>
+          <include name="noAuthCodeTest"/>
+          <include name="wrongKeyIdIdTokenJwtTest"/>
+          <include name="start"/>
+          <include name="unsignedIdTokenJwtTest"/>
+          <include name="inactiveTokenJwtTest"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.OIDCCodeFlowLocalValidationIT -->
+      <class name="com.okta.test.mock.tests.CustomLoginCodeFlowRemoteValidationIT">
+        <methods>
+          <include name="respondWithCode"/>
+          <include name="followRedirect"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.CustomLoginCodeFlowRemoteValidationIT -->
+      <class name="com.okta.test.mock.tests.CustomLoginCodeFlowLocalValidationIT">
+        <methods>
+          <include name="wrongStateTest"/>
+          <include name="stop"/>
+          <include name="followRedirect"/>
+          <include name="redirectToLogin"/>
+          <include name="start"/>
+          <include name="respondWithCode"/>
+          <include name="invalidSignatureAccessTokenJwtTest"/>
+          <include name="wrongAudienceAccessTokenJwtTest"/>
+          <include name="stopMockServer"/>
+          <include name="noAuthCodeTest"/>
+          <include name="wrongKeyIdAccessTokenJwtTest"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.CustomLoginCodeFlowLocalValidationIT -->
+      <class name="com.okta.test.mock.tests.ImplicitLocalValidationIT">
+        <methods>
+          <include name="accessKeyNonTrustedKeyTest"/>
+          <include name="scopeAccessTokenTest"/>
+          <include name="inactiveAccessTokenTest"/>
+          <include name="nonJWTAccessKeyTest"/>
+          <include name="wrongScopeAccessTokenTest"/>
+          <include name="start"/>
+          <include name="noToken401Test"/>
+          <include name="wrongAudienceAccessTokenTest"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.ImplicitLocalValidationIT -->
+      <class name="com.okta.test.mock.tests.CodeFlowRemoteValidationIT">
+        <methods>
+          <include name="stop"/>
+          <include name="respondWithCode"/>
+          <include name="start"/>
+          <include name="followRedirect"/>
+          <include name="stopMockServer"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.CodeFlowRemoteValidationIT -->
+      <class name="com.okta.test.mock.tests.ImplicitRemoteValidationIT">
+        <methods>
+          <include name="stop"/>
+          <include name="start"/>
+          <include name="scopeAccessTest"/>
+          <include name="stopMockServer"/>
+          <include name="noToken401"/>
+        </methods>
+      </class> <!-- com.okta.test.mock.tests.ImplicitRemoteValidationIT -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
